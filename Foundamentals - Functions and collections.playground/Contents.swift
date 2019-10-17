@@ -3,7 +3,8 @@ import UIKit
 //1. Napisi funkciju koja iz niza Int? ispisuje vrednosti.....a) Koristi optional binding b) Koristi guard statement
 
 var niz : [Int]?
-//Dusan: Add to function
+
+//Dusan:
 func optionalBinding () {
     if let someValue = niz?.first {
         print(someValue)
